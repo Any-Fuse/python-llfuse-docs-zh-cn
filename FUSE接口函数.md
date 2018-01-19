@@ -1,6 +1,6 @@
 # FUSE接口函数
 - llfuse.init(ops, mountpoint, options=default_options)
-  - 初始化并挂在文件系统。
+  - 初始化并挂载文件系统。
   - ops：必须是llfuse.Operations的（子类）实例（或鸭子对象）。
   - args：必须是一组字符串。default_options提供一些合理的默认值，建议以此为基础根据需要增减配置，例如：
 

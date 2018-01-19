@@ -3,7 +3,7 @@
 
 - 在unlink请求处理方法中删除INodes
 
-	假如文件系统挂在在“/mnt”，如下代码堪称完美：
+	假如文件系统挂载在“/mnt”，如下代码堪称完美：
 
 	with open("/mnt/file_one", "w+") as fh1:
 
